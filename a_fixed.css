@@ -1,0 +1,207 @@
+/* 设置全文的字体 */
+body {
+    font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", Verdana, Arial, '微软雅黑', '宋体';   
+}
+
+/* 设置页面大小 */
+#wrapper {
+    width: 1350px;
+    /* text-align: left; */
+    /* background-color: transparent url(/ui2017/wrapper.png) top left repeat-y; */
+    margin: 0 6% 0 6%;
+    
+}
+
+
+
+
+#header_index {
+    width:1220px;
+    height: 70px;
+    background-color: #fdfcf8;
+    margin: 12px 40px 0 40px;/* 外边距 [auto, length(px, pt, em), %] */
+}
+
+/* 设置标志Wray */
+#header_index h1 {
+    width: 200px;
+    height: 66px;
+    /* font-style: italic;  /* 字体设置 */
+    font: italic bold 3.1em "Fira Sans", sans-serif;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+/* 标志超链接 */
+#header_index a{
+    width: 150px;
+    height: 66px;
+    padding: 0 0 0 4px;
+    display: block;
+    text-decoration: none;
+
+}
+
+/* 标志鼠标悬停 */
+#header_index a:hover {
+    width: 150px;
+    height: 60px;
+    text-decoration: underline;
+    /* text-decoration是文字装饰的样式。none, underline, overline, line-through, blink, inhert */
+    text-decoration-color: #900b09;  
+
+}
+
+/* 鼠标悬停超链接 */
+a:hover {
+    text-decoration: none;
+}
+
+/* 超链接标签 */
+a {
+    text-decoration: none;
+    color: black    ;
+}
+
+/* 点击标签之后的颜色 */
+a:visited{
+    color: black;
+}
+
+/* 鼠标悬停在标签上面的颜色 */
+#header_index a:active{
+    color: #900b09;
+}
+
+
+
+
+
+
+/* 设置导航栏 */
+#navfirst {
+    width: 1220px;
+    height: 48px;
+    margin: 0 0 0 50px;
+    background: #E8E7E3;
+    position: relative  ;
+}
+
+/* 导航栏的列表显示 */
+#navfirst ul {
+    width: 1220px;
+    height: 48px;
+    list-style-type: none;    /* 无序列表marker属性（dics, circle, quare, decimal, georgian, tran-chinese-informal,kannada,none等） */
+    /*padding-inline-start: 100px;  /* 填充 （length， %）*/
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    position: relative;  
+    background-color: #a9a9a9;
+} 
+
+/* 每一个导航标签 */
+#menu li {
+    /* 通过左浮动，让列表变为横排 */
+    display: block;
+    float: left;   
+    width: 203px;
+    height: 48px;
+    /* 让文本水平垂直居中 */
+    line-height: 40px;
+    text-align: center;
+}
+
+/* 设置第一个导航的宽度（单独设置） */
+ /* #menu li:first-child {
+    width: 220px;
+}  */
+
+#menu a {
+    /* 超链接设置 */
+    color: black;
+    display: block; 
+    width: 203px;
+    height: 48px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+}
+
+#menu {
+    /* 设置列宽并居中 */
+    width: 800px;
+    margin: auto;
+
+}
+
+/*鼠标移动到选项上修改背景颜色 */
+#menu a:hover {
+    width: 203.8px;
+    background-color: #696969;
+}
+
+
+
+
+
+div#end1 {
+    display: block;
+    width: 1220px;
+    height: 80px;
+    background-color: #a9a9a9;
+    margin: 0 50px 50px 50px;
+}
+
+div#end1 p {
+    margin: 0 auto;
+    height: 40px;
+    padding: 27px 0 0 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+div#end2 {
+    width: 680px;
+    height: 25px;
+    margin: 0 auto;
+    padding: 10px 30px;
+    border-top: 2px dashed #000;
+}
+
+h2 {
+    text-align: left;
+    font-size: 18px;
+    margin: 0 0 0 0;
+    padding:20px 10px 5px 5px; 
+}
+
+#navsecond ul {
+    width: 170px;
+    margin: 0;
+    padding: 0;
+}
+
+#navsecond li {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    float: none;
+    color: black;
+}
+
+#navsecond a {
+    display: block;
+    width: 160px;
+    height: 25px;
+    left: 5px;
+    padding-left: 5px;
+    text-align: left;
+}
+
+#navsecond a:hover {
+    margin: 0 10px 0 0;
+    width: 165px;
+    background-color: #a9a9a9;
+}
