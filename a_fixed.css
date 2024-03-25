@@ -1,207 +1,113 @@
-/* 设置全文的字体 */
+
 body {
-    font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", Verdana, Arial, '微软雅黑', '宋体';   
+    display: flex;
+    width:100%;
+    margin-top: 0;
+    margin-left: 0;
+    flex-wrap: wrap;
 }
 
-/* 设置页面大小 */
-#wrapper {
-    width: 1350px;
-    /* text-align: left; */
-    /* background-color: transparent url(/ui2017/wrapper.png) top left repeat-y; */
-    margin: 0 6% 0 6%;
-    
+header {
+    width: 1519.2px;
+    height: 48.8px;
+    margin: 0 0 0 0;
 }
 
+#header {
+    display: flex;
+    width: 1511.2px;
+    height: 48.8px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+ 
+#header .header_logo {
+    width: 24px;
+    height: 24px;
+    margin: 4px 4px 4px 4px;
+    padding: 8px 8px 8px 8px;
+ }
 
+ #header img {
+    margin: 0 0 0 0;
+ }
 
-
-#header_index {
-    width:1220px;
-    height: 70px;
-    background-color: #fdfcf8;
-    margin: 12px 40px 0 40px;/* 外边距 [auto, length(px, pt, em), %] */
+#header .header_title {
+    width: 245.762px;
+    margin: 0 8px 0 20px;
 }
 
-/* 设置标志Wray */
-#header_index h1 {
-    width: 200px;
-    height: 66px;
-    /* font-style: italic;  /* 字体设置 */
-    font: italic bold 3.1em "Fira Sans", sans-serif;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
+#header .header_title_font {
+    display: flex;
+    width: 72px;
+    height: 48px;
 }
 
-/* 标志超链接 */
-#header_index a{
-    width: 150px;
-    height: 66px;
-    padding: 0 0 0 4px;
-    display: block;
+#header .header_title_font a {
     text-decoration: none;
-
-}
-
-/* 标志鼠标悬停 */
-#header_index a:hover {
-    width: 150px;
-    height: 60px;
-    text-decoration: underline;
-    /* text-decoration是文字装饰的样式。none, underline, overline, line-through, blink, inhert */
-    text-decoration-color: #900b09;  
-
-}
-
-/* 鼠标悬停超链接 */
-a:hover {
-    text-decoration: none;
-}
-
-/* 超链接标签 */
-a {
-    text-decoration: none;
-    color: black    ;
-}
-
-/* 点击标签之后的颜色 */
-a:visited{
     color: black;
 }
 
-/* 鼠标悬停在标签上面的颜色 */
-#header_index a:active{
-    color: #900b09;
+#header .header_title_font a:hover {
+    color: blue;
+    text-align: none;
 }
 
-
-
-
-
-
-/* 设置导航栏 */
-#navfirst {
-    width: 1220px;
-    height: 48px;
-    margin: 0 0 0 50px;
-    background: #E8E7E3;
-    position: relative  ;
-}
-
-/* 导航栏的列表显示 */
-#navfirst ul {
-    width: 1220px;
-    height: 48px;
-    list-style-type: none;    /* 无序列表marker属性（dics, circle, quare, decimal, georgian, tran-chinese-informal,kannada,none等） */
-    /*padding-inline-start: 100px;  /* 填充 （length， %）*/
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    position: relative;  
-    background-color: #a9a9a9;
-} 
-
-/* 每一个导航标签 */
-#menu li {
-    /* 通过左浮动，让列表变为横排 */
-    display: block;
-    float: left;   
-    width: 203px;
-    height: 48px;
-    /* 让文本水平垂直居中 */
-    line-height: 40px;
-    text-align: center;
-}
-
-/* 设置第一个导航的宽度（单独设置） */
- /* #menu li:first-child {
-    width: 220px;
-}  */
-
-#menu a {
-    /* 超链接设置 */
+#header .header_title_font a:link {
     color: black;
-    display: block; 
-    width: 203px;
+}
+
+
+#header .header_title_font span {
+    width: 72px;
     height: 48px;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    text-decoration: none; 
-}
-
-#menu {
-    /* 设置列宽并居中 */
-    width: 800px;
-    margin: auto;
-
-}
-
-/*鼠标移动到选项上修改背景颜色 */
-#menu a:hover {
-    width: 203.8px;
-    background-color: #696969;
-}
-
-
-
-
-
-div#end1 {
-    display: block;
-    width: 1220px;
-    height: 80px;
-    background-color: #a9a9a9;
-    margin: 0 50px 50px 50px;
-}
-
-div#end1 p {
-    margin: 0 auto;
-    height: 40px;
-    padding: 27px 0 0 0;
-    text-align: center;
+    line-height: 45px;
     font-size: 20px;
 }
 
-div#end2 {
-    width: 680px;
-    height: 25px;
-    margin: 0 auto;
-    padding: 10px 30px;
-    border-top: 2px dashed #000;
+#header .grid {
+    width: 1189.44px;
+    height: 48px;
 }
 
-h2 {
-    text-align: left;
-    font-size: 18px;
-    margin: 0 0 0 0;
-    padding:20px 10px 5px 5px; 
-}
-
-#navsecond ul {
-    width: 170px;
+#header ul {
+    list-style: none;
     margin: 0;
-    padding: 0;
+    height: 48px;
 }
 
-#navsecond li {
+#header li {
     display: block;
-    list-style-type: none;
-    margin: 0;
+    float: left;
+    width: 78.613px;
+    height: 48px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#header li a {
+    display: block;
     float: none;
+    margin-top: 15px;
+    width: 78.612px;
+    height: 18.975px;
+    text-decoration: none;
+    color: black;
+    font-family: '新宋体';
+    font-size: 18px;
+}
+
+#header li a:hover{
+    color: blue;
+}
+
+
+#header li a:link {
     color: black;
 }
 
-#navsecond a {
-    display: block;
-    width: 160px;
-    height: 25px;
-    left: 5px;
-    padding-left: 5px;
-    text-align: left;
-}
-
-#navsecond a:hover {
-    margin: 0 10px 0 0;
-    width: 165px;
-    background-color: #a9a9a9;
+#index_end {
+    background-color: #a9a9a9 ;
+    width: 100%;
+    height: 58px;
 }
